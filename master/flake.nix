@@ -11,7 +11,6 @@
   inputs.src-mongo-master.ref   = "refs/heads/master";
   inputs.src-mongo-master.owner = "nim-lang";
   inputs.src-mongo-master.repo  = "mongo";
-  inputs.src-mongo-master.dir   = "";
   inputs.src-mongo-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
